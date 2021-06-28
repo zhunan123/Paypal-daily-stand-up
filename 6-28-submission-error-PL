@@ -1,0 +1,2 @@
+6/28
+so this is the story I am working on the submission error is being blocked error. So I took a look in this change here in tesla. so what I did is I made a similar change in unified. so here in unified appAction.js in the function submitFormAjax, I passed the skipValidation:true here, so in the local I see even validation fails, but we are still able to get to next page. but once I set the skipValidation back to false, I will need to enter all the required info before proceed to the next page. is this what we expected here?
